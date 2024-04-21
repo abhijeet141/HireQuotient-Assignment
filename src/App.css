@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 70%;
+}
+.table {
+    margin: 5rem auto;
+    border-collapse: collapse;
+    overflow: hidden;
+  }
+  .asset-class-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  .red-text {
+    color: red !important;
+  }
+  @media (max-width: 768px) {
+    .asset-class-name {
+      font-size: 1.2rem;
+    }
+    .thead {
+      font-size: 1.2rem;
+    }
+    .table td, .table th {
+      font-size: 1.2rem;
+      padding: 0.8rem;
+    }
+    .table td:nth-child(1),
+    .table th:nth-child(1) {
+      min-width: 100px;
+    }
+  }
