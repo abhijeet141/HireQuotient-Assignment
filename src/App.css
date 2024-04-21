@@ -5,6 +5,9 @@
 html {
   font-size: 70%;
 }
+.expand-icon{
+  cursor: pointer;
+}
 .table {
     margin: 5rem auto;
     border-collapse: collapse;
